@@ -8,8 +8,8 @@ spec:
 
   source:
     path: components/pipeline-service
-    repoURL: https://github.com/redhat-appstudio/infra-deployments.git
-    targetRevision: main
+    repoURL: https://github.com/mo3m3n/infra-deployments.git
+    targetRevision: build/preview
 
   destination:
     namespace: default # not relevant yet since every object has an explicit namespace.
