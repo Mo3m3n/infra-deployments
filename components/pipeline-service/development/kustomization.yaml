@@ -9,7 +9,7 @@ commonAnnotations:
 
 resources:
   - git::https://github.com/openshift-pipelines/pipeline-service.git/developer/openshift/gitops/argocd/pipeline-service?ref=19f250cc874d49d5eb6afb56f46f8d1411e9d225
-  - git::https://github.com/openshift-pipelines/pipeline-service.git/developer/openshift/gitops/argocd/pipeline-service-storage?ref=19f250cc874d49d5eb6afb56f46f8d1411e9d225
+  - git::https://github.com/Mo3m3n/pipeline-service.git/developer/openshift/gitops/argocd/pipeline-service-storage?ref=28754a1f1831dfa3629b07bacd9d39bdb3f2b303
 
 components:
   - ../components/tekton-chains
